@@ -23,7 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -46,7 +48,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ReactJS Developer",
     icon: mobile,
   },
   {
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Farmer",
     icon: creator,
   },
 ];
@@ -105,22 +107,22 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "SQL",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "JWT Authentication",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Full Stack Intern",
+    company_name: "Apna College",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2023 - March 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -128,25 +130,13 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Web Developer Intern",
+    company_name: "IT Networkz",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022 - May 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,53 +144,41 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our project, but vaibhav proved me wrong.",
+    name: "prof.Pranjali Gujar",
+    designation: "professor",
+    company: "TGPCET",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their project' success like vaibhav does.",
+    name: "Tushar Sonkusare",
+    designation: "Frontend Developer",
+    company: "freelance",
+    image: "https://randomuser.me/api/portraits/men/9.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After vaibhav optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lokesh Bodad",
+    designation: "Entreprenuer",
+    company: "FruitVerse",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Easy Shop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "ECommerce platform enabling customers to browse products, place orders, and make secure payments, with dashboards for managing orders, products, and deliveries.",
     tags: [
       {
         name: "react",
@@ -216,13 +194,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/VaibhavChaudhari22/EasyShop-Ecommerce-platform",
   },
   {
-    name: "Job IT",
+    name: "Wanderlust",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+"Online marketplace connecting property owners with renters for short-term stays, offering seamless listing, searching, and updating functionalities for a user-friendly experience.",    tags: [
       {
         name: "react",
         color: "blue-text-gradient",
@@ -235,15 +212,18 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+       {
+        name: "Live",
+        color: "Red-text-gradient",
+      },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/VaibhavChaudhari22/Wanderlust",
   },
   {
-    name: "Trip Guide",
+    name: "Joker App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+"Responsive web application that dynamically fetches and displays jokes using the Joker API, featuring a joke generator and optimized with React hooks for performance.",    tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
@@ -256,10 +236,57 @@ const projects = [
         name: "css",
         color: "pink-text-gradient",
       },
+       {
+        name: "Live",
+        color: "Red-text-gradient",
+      },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/VaibhavChaudhari22/Joker-react-app",
+  },
+  {
+    name: "Weather app",
+    description:
+      " A responsive React web application providing current weather conditions for any location, showcasing modern web development practices.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    // image: weather,
+    source_code_link: "https://github.com/VaibhavChaudhari22/Weather-App",
+  },
+  {
+    name: "Hotel Room Reservation",
+    description:
+"A simple hotel reservation CRUD app built with Angular and TypeScript, offering a user-friendly interface to manage bookings efficiently.",    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Angualar",
+        color: "pink-text-gradient",
+      },
+       
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/VaibhavChaudhari22/Hotel-Room-Reservation-App",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, };
+  

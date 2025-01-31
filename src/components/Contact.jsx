@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Vaibhav",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "chaudhari2208@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -62,6 +62,14 @@ const Contact = () => {
           alert("Ahh, something went wrong. Please try again.");
         }
       );
+  };
+
+  const handleResumeDownload = () => {
+    const resumeUrl = "/public/vaibhav chaudhari Resume.pdf";
+    const anchor = document.createElement("a");
+    anchor.href = resumeUrl;
+    anchor.setAttribute("download", "Vaibhav_Resume.pdf");
+    anchor.click();
   };
 
   return (
@@ -114,15 +122,25 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
-        </form>
+         <button
+  type='submit'
+  className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+>
+  {loading ? "Sending..." : "Send"}
+</button>
+</form>
+
+{/* Resume Button with proper margin and background color */}
+<button
+  onClick={handleResumeDownload}
+  className='bg-blue-600 mt-4 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+>
+  Get Resume
+</button>
       </motion.div>
 
+     
+      
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
