@@ -118,6 +118,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Node.js Developer Intern",
+    company_name: "Talentrise Technokrate pvt Ltd",
+    icon: meta,
+    iconBg: "#383E56",
+    date: "May 2025 - Nov 2025",
+    points: [
+      "Engineered and optimized backend services for a live taxi booking platform using Node.js, Express.js, and MongoDB, improving server performance and scalability.",
+      " Developed reusable middleware for request validation, error handling, and JWT-based authentication, cutting redundant code by 25%.",
+      " Integrated Razorpay Payment Gateway for secure and reliable payment processing",
+      "Refactored database queries and indexing strategies, improving data retrieval efficiency by 20%.",
+      "Collaborated with front-end developers to design RESTful APIs, ensuring seamless integration with React Native mobile applications.",
+      "Documented and tested APIs using Postman; maintained backend structure following MVC architecture principles for scalability and maintainability."
+    ],
+  },
+  {
     title: "Full Stack Intern",
     company_name: "Apna College",
     icon: starbucks,
@@ -167,9 +182,9 @@ const testimonials = [
   {
     testimonial:
       "After vaibhav optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lokesh Bodad",
-    designation: "Entreprenuer",
-    company: "FruitVerse",
+    name: "Devendra Selokar",
+    designation: "Backend Developer",
+    company: "Technokrate pvt ltd",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
